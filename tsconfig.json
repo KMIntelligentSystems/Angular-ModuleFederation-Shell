@@ -7,14 +7,15 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "module": "ES2020",
-    "allowJs": true,
+    "module": "esnext",
     "moduleResolution": "node",
-    "importHelpers": false,
-    "target": "ES2015",
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom"]
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
   }
 }

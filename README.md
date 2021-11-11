@@ -1,16 +1,21 @@
-# FederationDemo
+![Angular Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/angular.svg)
 
-Demonstrates webpack 5 Module Federation with Angular and the Angular Router.
+# Angular Example
 
-## Start
+This directory is a brief example of an [Angular](https://angular.io/) app that can be deployed with Vercel and zero configuration.
 
-- Install dependencies with yarn (!)
-  - You need to use yarn until Angular 12 (May 2021) to use the experimental opt-in for webpack 5
-  - Beginning with Angular 12, webpack 5 will be active by default
-- Run Micro Frontend 1
-  - ng serve mfe1 -o
-- Run Micro Frontend 2
-  - ng serve mfe2 -o
-- Run the shell
-  - ng serve shell -o
+## Deploy Your Own
 
+Deploy your own Angular project with Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/angular&template=angular)
+
+_Live Example: https://angular.now-examples.now.sh_
+
+### How We Created This Example
+
+To get started with Angular, you can use the [Angular CLI](https://cli.angular.io/) to initialize the project:
+
+```shell
+$ ng new
+```
