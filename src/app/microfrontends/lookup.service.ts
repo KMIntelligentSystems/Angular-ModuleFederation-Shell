@@ -29,7 +29,7 @@ export class LookupService {
             },
             {
                 // For Loading
-                remoteEntry: 'http://localhost:3002/remoteEntry.js',
+                remoteEntry: 'https://angular-model-federation-drag-drop.vercel.app/remoteEntry.js',
                 remoteName: 'dragAndDrop',
                 exposedModule: './Module',
 //
